@@ -1,4 +1,4 @@
-### How to run the website (server) locally
+# How to run the website (server) locally
 
 1. Change directories to the `public` directory, and use Python's built-in
    [HTTP server](https://docs.python.org/3/library/http.server.html#command-line-interface)
@@ -20,7 +20,9 @@ python3 -m http.server 8888
 python3 -m http.server 8888
 ```
 
-> [!NOTE] Move all of the `docs` to the root directory. This will enable the
+> [!NOTE]
+>
+> Move all of the `docs` to the root directory. This will enable the
 > `index.html` to load on the W&M CS Website To see the default permissions for
 > `chmod`, go to school drive folder and look at docs named GitHub School
 > Website?
