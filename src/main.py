@@ -1,10 +1,10 @@
 # from textnode import TextNode, TextType, text_node_to_html_node
 # from htmlnode import HTMLNode, LeafNode, ParentNode
-from inline_markdown import *
-
 import os
 import shutil
 import sys
+
+from inline_markdown import *
 
 if len(sys.argv) > 1:
     basepath = sys.argv[1]
@@ -364,8 +364,8 @@ def main():
         shutil.rmtree("contact")
     if os.path.exists("projects"):
         shutil.rmtree("projects")
-    if os.path.exists("credentials"):
-        shutil.rmtree("credentials")
+    if os.path.exists("creds"):
+        shutil.rmtree("creds")
     if os.path.exists("index.css"):
         os.remove("index.css")
     if os.path.exists("index.html"):
